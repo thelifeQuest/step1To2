@@ -1,0 +1,40 @@
+/*@media only screen and (max-width: 800px) {
+    body {
+     display: none;
+    }
+  } */
+
+
+body{
+    background-color: lightgrey;
+    overflow: hidden;
+    
+}
+
+.container{
+    padding: 20vw 0;
+    text-align: center;
+
+}
+
+#arrivButton{
+    font-size: 100px;
+    color: #b73f3f;
+}
+
+#btn1{
+    margin-top: 20px;
+}
+#btn2{
+    margin-top: 20px;
+}   
+
+.firstImage{
+    width: 150px;
+    position: absolute;
+    padding-left: 85%;
+}
+
+#mobile1{
+    size: 200px;
+}
