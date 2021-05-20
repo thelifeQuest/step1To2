@@ -1,13 +1,6 @@
-/*@media only screen and (max-width: 800px) {
-    body {
-     display: none;
-    }
-  } */
-
-
 body{
     background-color: lightgrey;
-    overflow: hidden;
+    overflow: hidden; 
     
 }
 
@@ -32,9 +25,18 @@ body{
 .firstImage{
     width: 150px;
     position: absolute;
-    margin-left: 85%;
+    padding-left: 85%;
 }
 
 #mobile1{
     size: 200px;
+}
+
+.inputContainer{
+    
+    padding-top: 900vh;
+}
+
+#emailInput{
+    width: 350px;
 }
