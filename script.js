@@ -28,3 +28,25 @@ function myFunction(x) {
   var x = window.matchMedia("(max-width: 650px)")
   myFunction(x) 
   x.addListener(myFunction)
+
+
+  
+function mailChecker(){
+
+var Mail = document.getElementById("emailInput").value;
+
+if(Mail == "org.x@protonmail.com"){
+
+
+  document.getElementById("output").innerText="Change the path of this Website to vita"; 
+
+} else {
+document.getElementById("output").innerText="Try again";
+}
+
+}
+
+
+
+
+//Denis is a kind and loving person.
