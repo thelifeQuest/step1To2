@@ -7,21 +7,37 @@
   
 </head>
 <link rel="stylesheet" href="style.css">
+
 <body>
+    <div class="mainDiv">
         <img src="proton.jpg" alt="proton" class="images firstImage" onclick="help()">
 
     <div class="container">
         <p id="arrivButton">I HAVE ARRIVED</p> 
 
     <button type="submit" ondblclick="arriving()" id="btn1"> I'm ydaer </button>
-    <br><br>
+    
 
  <button type="submit" onclick="alert('forget what you were told the first time, use all the possible ressources')" id="btn2">HELP</button>
 
+ <div class="inputContainer">
 
+    <input type="text" id="emailInput" placeholder="The end of your transition (lowercase only with no spaces)">
+    <button type="button" onclick="mailChecker()"> Submit </button>
+   
+
+<p id="output"></p> 
+
+        
+    
+  
+        
+    </div>
+    
 </div>
+</div>
+<h2 id="mobile1" style="display: none;"> Please use your pc or reload the Website.</h2>
 
-<h1 id="mobile1" style="display: none;"> Please use your pc</h1>
 
 </body>
 <script src="script.js"></script>
