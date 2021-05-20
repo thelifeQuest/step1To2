@@ -13,7 +13,7 @@ function arriving(){
 
 
 function help(){
-alert("A positive mindset is all you need ;)")
+alert("If you just focus on the smallest details, you never get the big picture right.;)")
 
 }
 
