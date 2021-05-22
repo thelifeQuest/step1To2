@@ -22,11 +22,15 @@ body{
     margin-top: 20px;
 }   
 
+.images{
+    position: absolute;
+}
+
 .firstImage{
     width: 150px;
-    position: absolute;
-    padding-left: 85%;
+    margin-left: 89%;
 }
+
 
 #mobile1{
     size: 200px;
