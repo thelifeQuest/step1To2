@@ -1,3 +1,6 @@
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+} //I don't want you to see what's downthere. 
 function arriving(){
     var arriv= prompt("0!=?")
     if(arriv== 1){
